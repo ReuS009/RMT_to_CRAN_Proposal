@@ -1,32 +1,21 @@
 # Signatories
-<!--
-This section provides the ISC with a view of the support received from
-the community for a proposal. Acceptance isn't predicated on
-popularity but community acceptance is important. Willingness to
-accept outside input is also a good marker for project delivery.
-
-An optional section would be for R-Core signatories where changes to R
-are proposed.
--->
 
 ## Project team
-<!--
-Who are the people responsible for actually delivering the project if
-the proposal gets accepted and are already signed up and rearing to
-go? Briefly describe all participants and the skills they will bring
-to the project. Include public artifacts such as code repositories to
-show their tack record.
--->
+
+**Principal Investigator & Lead Developer – Dr. Reuel Smith, University of Maryland and Montgomery College**
+
+Sole project lead, package maintainer, and lead developer of the [Reliability Modeling Toolkit (RMT)](https://github.com/Center-for-Risk-and-Reliability/RMT) and is well versed with concepts of R coding, testing, and debugging and reliability engineering including accelerated testing, probabilistic physics of failure, and modeling.  Executes all code refactoring, `testthat` suite development and integration, and CRAN submission tasks.
+
 
 ## Contributors
-<!--
-Who are the people who have actively helped with this proposal but
-won't necessarily be on the core project team later?
--->
+
+**Co-Developer & Project Advisor – Prof. Mohammad Modarres, University of Maryland**
+Senior professor with the Center for Risk and Reliability and the original co-designer and advisor for the RMT.  Provides valuable feedback and review, datasets for testing, and validation for the RMT’s tool algorithms and functions.
+
 
 ## Consulted
-<!--
-Who has been given the opportunity to provide feedback on the
-proposal?
--->
+
+**Reliability Engineering & R User Community**
+
+Faculty within the Center for Risk and Reliability as well as attendees at the Reliability and Maintainability Symposium (RAMS) have been regularly consulted for feedback concerning the direction of the RMT.
 
