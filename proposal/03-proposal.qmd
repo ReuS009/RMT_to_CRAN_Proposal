@@ -5,10 +5,10 @@ This project seeks to fully prepare the RMT for entry into CRAN and the greater 
 
 The proposed project timeline will go as follows:
 
-- *Month 1-2*: Script restructuring, dependency cleanup, and resolution of any warnings or errors
-- *Month 3-4*: Test-driven development phase where test cases will be developed for the RMT’s `testthat` folder
-- *Month 5*: Develop structured documentation vignettes for use of the RMT’s toolsets (probability plotting, ALT, and ADT)
-- *Month 6*: Submission of the RMT 2.0.0 package to CRAN and R community outreach
+- **Month 1-2**: Script restructuring, dependency cleanup, and resolution of any warnings or errors
+- **Month 3-4**: Test-driven development phase where test cases will be developed for the RMT’s `testthat` folder
+- **Month 5**: Develop structured documentation vignettes for use of the RMT’s toolsets (probability plotting, ALT, and ADT)
+- **Month 6**: Submission of the RMT 2.0.0 package to CRAN and R community outreach
 
 
 ## Detail
