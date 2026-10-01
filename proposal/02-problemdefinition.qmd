@@ -4,21 +4,8 @@ bibliography: references.bib
 
 # The Problem
 
-```{=html}
-<!--
-Outlining the issue / weak point / problem to be solved by this
-proposal. This should be a compelling section that sets the reader up
-for the next section - the proposed solution!
+The *Reliability Modeling Toolkit (RMT)* is a free-of-charge open-source R-based library of educational tools specifically designed to execute computationally involved and challenging reliability modeling and analytical calculations based on *probabilistic physics of failure (PPoF)*, *probability estimation*, and *accelerated testing (AT) procedures*, including *accelerated life testing (ALT)* and *accelerated degradation testing (ADT)*.  This creates a free-of-charge alternative to high-cost reliability software packages for students, educators, and the engineering industry.  
 
-It is important to cover:
+While R excels at general statistical modeling, these reliability toolsets are somewhat fragmented between different single-purpose libraries. The RMT by contrast seeks to unify toolsets such that they are readily available to the user for a variety of reliability-based operations, and R is in need of a dedicated package that brings several reliability analysis toolsets together.
 
- - [ ] What the problem is
- - [ ] Who it affects
- - [ ] Why is it a problem
- - [ ] What will solving the problem enable (why should it be solved)
- - [ ] Brief summary of existing work and previous attempts (e.g., relevant R packages)
- - [ ] If proposing changes to R itself: letter of support from R Core member
--->
-```
-
-An example in-text citation [@wickham2016].
+Its exclusive availability on GitHub however creates a barrier to users seeking a “pick-up-and-use” library such as those available on CRAN.  Its current repository only makes it visible to those who know of it or by “word-of-mouth,” whereas CRAN is open to the global R community as a whole.  Since its initial release in 2022 (as v. 1.0.0), the RMT’s userbase has grown slowly and feedback has helped in its development into a more robust and versatile reliability software package.  By solving this issue of CRAN availability for the RMT, reliability engineers within the R community will have direct access for download and installation through the CRAN network and reduce their reliance on costly software alternatives.
