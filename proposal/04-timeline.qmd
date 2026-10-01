@@ -1,60 +1,32 @@
 # Project plan
 
 ## Start-up phase
-<!--
-Covering the planning phase, this section should provide a relatively
-detailed plan of how work will start on the project. This section is
-important because projects need to get up and running quickly.
 
-
- - [ ] Setting up collaboration platform inc. code for contributors etc.
- - [ ] License decisions
- - [ ] Reporting framework
--->
+- **Platform Setup**: (*DONE*) Established GitHub repository for the RMT under the [UMD Center for Risk and Reliability organization account](https://github.com/Center-for-Risk-and-Reliability/RMT)
+-	**Licensing**: (*DONE*) GNU General Public License v3.0 (GPL-3) has been established for users to ensure open-source access and protect subsequent distribution.
+-	**Reporting Framework**: Establish GitHub issue tracking to monitor progress on a bi-weekly basis
 
 
 ## Technical delivery
-<!--
-Covering the actual delivery of the project this section should
-provide at least a high-level description of the implementation.
 
-Including target dates is really important as you need to be committed
-and the ISC need to have a means of tracking delivery
--->
+**Stage 1: RMT Tool Architecture (est. target window Month 1-2)** - Restructure scripts and functions, standardize argument syntax and eliminate any `R CMD check` warnings or errors
+
+**Stage 2: Validation of RMT Tools (est. target window Month 3-4)** - Develop test cases for the RMT’s `testthat` folder that checks for logic issues for benchmark datasets
+
+**Stage 3: Documentation Update and Creation (est. target window Month 5)** - Complete `roxygen2` documentation tags write RMT’s toolset vignettes and upload `pkgdown` site
+
+**Stage 4: Release (est. target window Month 6)** - Submit RMT 2.0.0 package to CRAN and update on GitHub
+
 
 ## Other aspects
 
-<!--
-How will you ensure that your work is available to the widest number
-of people? Please specify the open-source or creative commons license(s)
-you will use, how you will host your code so that others can contribute,
-and how you will publicize your work. We encourage you to plan content
-to be shared quarterly on the R Consortium blog.
+-	**Open-Source Licensing**: GNU General Public License v3.0 (GPL-3)
+-	**Community Outreach and Engagement**: 
+--	Post launch of project and share project updates on various blogs and websites including the R Consortium Blog, CRR website, and LinkedIn platform
+--	Publish a technical delivery post upon CRAN acceptance featuring reproducible ALT examples.
+-- Share updates with reliability engineering community groups and present results at upcoming industry forums (e.g., RAMS).
 
- - [ ] Announcement post
- - [ ] Delivery blog post
- - [ ] Social media
- - [ ] UseR!
- - [ ] ISC meetings
--->
 
 ## Budget & funding plan
 
-<!--
-Note that the maximum grant is $10k USD. The proposal should be in USD.
-
-Outline the milestones for development and how much funding will be
-required for each stage (as payments will be tied to project milestone
-completion). This also helps the ISC in the event of partial funding. 
-Each milestone should specify the work to be done and the
-expected outcomes, providing enough detail for the ISC to understand
-the scope of the project work and assess the likelihood of success.
-
-We expect that most of the budget will be allocated
-for labor costs. We do not cover indirect costs. The ISC grants cannot
-cover such things as travel, lodging, food, journal publication fees,
-or personal hardware. Cloud services may be covered if they are specific
-to the project and the project period. The ISC reserves the right to vet
-how funds are used for each project separately. If in doubt, please reach
-out to us.
--->
+The total requested amount is $10,000 which is expected to be used entirely for labor.  Funds will not be used for travel, publication fees, food or lodging, hardware, or any indirect costs per ISC guidelines.  Approximately $5,000 will cover labor for the first three months (up to the middle of Stage 2) and the remaining $5,000 will be dispensed upon the conclusion of the six-month project when the RMT 2.0.0 package is submitted to CRAN and updated on GitHub.
