@@ -1,22 +1,15 @@
 # Success
-<!--
-Projects should have a definition of done that is measurable, and a
-thorough understanding going in of what the risks are to delivery
--->
 
 ## Definition of done
-<!--
-What does success look like?
--->
+
+Competition or success of the project will be governed by three main conditions: (1) The RMT v. 2.0.0 is uploaded on CRAN free of errors and operating on all main operating systems; (2) Test units are covered 85% or higher as measured by `covr`, and (3)  RMT toolset documentation `pkgdown` and vignettes are publicly available online for user access and assistance
 
 ## Measuring success
-<!--
-How will we know when success is achieved, what markers can we use
-along the way
--->
+
+Success of this project will be defined by:
+- **Technical Quality**: Meaning zero `R CMD check` warnings or notes on CRAN builds 
+- **Community Outreach**: CRAN package download metrics documented, increase in GitHub repository stars and watchers, and issue tracker engagement from external users.
 
 ## Future work
-<!--
-How could this be extended / developed in the future by yourself
-and/or the community in general?
--->
+
+Following the initial CRAN release of v2.0.0, of RMT will expand to include an interactive R Shiny graphical interface `shiny` for non-programmer users and expand data integration for international reliability research databases.
